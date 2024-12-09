@@ -1,3 +1,5 @@
+https://aman5z.blogspot.com/2024/09/projects.html
+
 Room #1: 
 
 Back in 2021, I have implemented an automation system using an 8-channel relay, a NodeMCU ESP8266, and an AC to DC 5V 2A adapter board, all neatly housed inside a large box. This setup is connected to the tube lights, ceiling fan, Philips Wiz smart LED Bulb (10W), DIY RGB lamp (RGB Strip, ESP8266), study lamp, and three 2-pin sockets, which I use to plug devices like phone chargers and laptops. I've automated these sockets to turn off at a specific time when the device reaches 100% charge, ensuring devices don't overcharge, which is safer. I can safely leave them plugged in overnight without worrying about overcharging!
