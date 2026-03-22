@@ -1,4 +1,3 @@
-https://aman5z.blogspot.com/2024/09/projects.html
 
 Room #1: 
 
@@ -23,3 +22,19 @@ For "Alexa, movie break," the soundbar (via Homemate Wi-Fi IR remote) pauses the
 Everything in the living room is customized using the Alexa app, allowing for seamless control and communication with all connected devices in one place.
 Kitchen: 
 The kitchen automation includes a water pump motor timer using a 40A SSR and an Arduino Nano. I programmed the timer using simple Arduino code with 3 buttons: a 2-minute option (when unsure about the water tank level), a 7-minute option (when the tank is empty and needs to be filled), and a reset button to stop the pump or change the timer. The setup is powered by an AC to DC 5V 1A adapter and housed in a 2-module electrical box, wired to the existing motor switch. This system ensures efficient water usage, preventing overflows and saving energy. I can also connect a NodeMCU ESP8266 to enable control via a mobile app, Alexa, or Google Assistant from anywhere, but in this case its not necessary.
+
+![IMG-20190306-WA0000](https://github.com/user-attachments/assets/c741b377-163f-420e-9a08-03da34a4cbe1)
+![IMG_20210626_004008](https://github.com/user-attachments/assets/fb8143f0-f338-4ef6-b7a9-329f63ccce7b)
+![IMG_20210604_180912](https://github.com/user-attachments/assets/eba33c03-7e59-4e0f-8084-dab73e180ccc)
+![IMG_20210311_004233](https://github.com/user-attachments/assets/5efd6039-7ff8-47de-94d5-cde6d0406344)
+![IMG_20210308_233706](https://github.com/user-attachments/assets/eebd3ba9-b88d-48d7-b955-996f65cf0dae)
+![IMG_20210224_010514](https://github.com/user-attachments/assets/864e2ac0-0ec4-4348-ad3f-90b6f47e9557)
+![IMG_20210213_175929](https://github.com/user-attachments/assets/d0138cf2-5a32-4a73-a4dd-88968814c742)
+![IMG_20190227_131145](https://github.com/user-attachments/assets/3dbbb0d9-d3af-4a27-9ea4-1380a3551511)
+![IMG_4515](https://github.com/user-attachments/assets/b2539fcc-647c-4372-a9e3-a6c5f4065909)
+![IMG_3498](https://github.com/user-attachments/assets/12ed73f1-18b6-4051-b777-5e059530f31e)
+![IMG-20210625-WA0012](https://github.com/user-attachments/assets/618cadc4-40b2-4204-8423-cb07b166946a)
+![IMG-20210619-WA0012](https://github.com/user-attachments/assets/02cf26b4-37cf-4695-a2cd-d76c7a91f2b2)
+![IMG-20190306-WA0002](https://github.com/user-attachments/assets/67e2337d-2c52-4687-a8e1-94d22755feb4)
+![IMG-20190306-WA0001](https://github.com/user-attachments/assets/8e6aa2b3-8c52-42bf-903e-7f368c8b47ac)
+
