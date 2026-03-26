@@ -38,3 +38,39 @@ The kitchen automation includes a water pump motor timer using a 40A SSR and an 
 ![IMG-20190306-WA0002](https://github.com/user-attachments/assets/67e2337d-2c52-4687-a8e1-94d22755feb4)
 ![IMG-20190306-WA0001](https://github.com/user-attachments/assets/8e6aa2b3-8c52-42bf-903e-7f368c8b47ac)
 
+
+
+Smart Extension Box V3 
+
+![MixCollage-07-Mar-2026-04-04-AM-459](https://github.com/user-attachments/assets/774dc208-1f0b-446a-a102-5dea3f74b8d3)
+![IMG_3524(1)](https://github.com/user-attachments/assets/6cadf5c0-129d-4a31-b041-b7aa7742c88e)
+![IMG_3518(1)](https://github.com/user-attachments/assets/ce578bfb-d1e8-44d5-b606-efb4e546028f)
+![IMG_3516(1)](https://github.com/user-attachments/assets/71806ac6-8ac4-4aa4-8562-5d0d89059940)
+
+
+
+ Smart Extension Box V3 For this project, I used a GoldMedal brand extension box with 6 x 3-pin sockets. Originally, it had a single switch to control all the sockets at once. I upgraded it using a 4-channel + 2-channel=6 channel relay, an ESP32 dev board, and an AC to DC 5V 2A adapter. I added a reset switch, a USB-A port for reprogramming the device via Arduino IDE, and an external port to avoid opening the box each time.
+
+The extension box now has individual control switches thanks to an IR receiver module (TSOP) and a small generic IR remote. I extracted the IR values and assigned them to each of the six sockets, using the '0' button to turn off all sockets at once. The box can also be controlled via the ESP RainMaker app, Alexa, or Google Assistant, allowing for timers and automation.
+
+
+
+
+# Bike-Keyless-Entry-via-IoT
+
+![IMG_20210404_184812](https://github.com/user-attachments/assets/e7a24218-40b1-4f31-ab70-6d3c51646aad)
+![IMG_20210404_152327](https://github.com/user-attachments/assets/aa6e3ae5-88dd-41b2-86d0-458cd19a1b24)
+![IMG_20210201_165659](https://github.com/user-attachments/assets/a6bb85e9-b589-4813-bb48-85f87d920ca4)
+![IMG_20190227_012850](https://github.com/user-attachments/assets/024972c5-6d55-4a3f-86a8-48cb64a58318)
+![IMG_20220214_001356](https://github.com/user-attachments/assets/30563633-3b55-4f2d-984b-d222f8343e9e)
+![IMG_20210406_165326](https://github.com/user-attachments/assets/b3ba30cb-2527-42ee-9a87-ac66c5cb82ec)
+
+
+This project uses a 4-channel relay and a NodeMCU ESP8266, connected via Sinric Pro (which allows for up to 3 devices for free). Power is supplied by a 12V to USB charger connected to the bike's battery (or a power bank can be used). The system is connected to the bike's ignition, kill switch (to turn the engine on/off without turning off the ignition), and self-start switch.
+For added fun, I also connected the high beam light switch and horn switch (as a car unlock method), but these are limited due to Sinric Pro’s 3-device limitation. The bike can be controlled via Alexa and Google Assistant. I’ve DIYed a Bluetooth receiver into my helmet, allowing me to turn on the bike while wearing it, giving me a Tony Stark/Iron Man-like experience!
+
+Additionally, I installed an RF module salvaged from an old RC car, which I transformed into a remote keychain. This makes the bike fully keyless—automatically unlocking when I’m near and locking when I move more than 10 meters away. Since I’m usually out and about, I activate my phone’s mobile hotspot (with the same SSID as my home network) to make the system work, although Bluetooth is another option with more limited range.
+
+I can also control the system via the Alexa app on my WearOS watch for a futuristic touch!
+
+
